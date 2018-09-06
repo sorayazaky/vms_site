@@ -1,0 +1,151 @@
+body, html{
+	height: 100%;
+	margin: 0;
+/*	z-index: 10px;*/
+	
+}
+
+#fullpage {
+ position: relative;
+ box-sizing: content-box;
+}
+
+.navs {
+	top: 0;
+	padding-top: 0px;
+	display: block;
+	float: right;
+	color: #DDD;
+	background-color: #444;
+	width: 100%;
+}
+
+.navs li{
+	display: block;
+	float: right;
+	font-size: 14px;
+	line-height: 1.428571;
+	font-weight: 400;
+}
+
+.btn {
+	color: #DDD;
+	background-color: #444;
+	border-radius: 0;
+}
+
+.d-flex {
+	padding: 280px;
+/*	z-index: -10px*/
+}
+
+.jumbotron {
+  	background-image: url('../img/vms-background.jpg');
+  /*  background-position: center;
+    background-repeat: no-repeat;*/
+/*    background-size: cover; */
+	color: #ffff;  /*
+	text-align: center;*/
+	border-radius: 0;
+	position: static;
+	/*height: 200%;*/
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+
+.jumbotron p strong{
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.429;
+	font-weight: 700;
+}
+
+footer {
+	color: #DDD;
+	background-color: #444;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+}
+
+.about .product #section-slide .contact {
+	position: fixed;
+	z-index: 10px;
+}
+
+.about .section h1 {
+	text-align: justify;
+	color: #444;
+	font-size: 36px;
+	line-height: 1.1;
+	font-weight: 500;
+}
+
+.xx{
+	 position: fixed;
+}
+.about p {
+	text-align: justify;
+	color: #444;
+	font-size: 14px;
+	line-height: 1.429;
+	font-weight: 400;
+}
+
+#section-slide {
+	background-image: url('../img/vms-background.jpg');
+	background-size: cover;
+	color: #ffff;
+	padding-left: 300px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	justify-content: center; 
+}
+
+#section-slide .carousel-inner .carousel-item p {
+	font-size: 14px;
+	line-height: 1.429;
+	font-weight: 400px;
+	justify-content: center; 
+}
+
+.product .section h1 {
+	text-align: justify;
+	color: #444;
+	font-size: 34px;
+	line-height: 1.5;
+	font-weight: 600px;
+}
+
+.product .container p {
+	text-align: justify;
+	color: #444;
+	font-size: 14px;
+	line-height: 1.429;
+	font-weight: 400;
+}
+
+
+.contact .section h2 {
+	text-align: justify;
+	color: #444;
+	font-size: 32px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+.contact .container h4 {
+	font-size: 18px;
+	line-height: 1.1;
+	font-weight: 500;
+
+}
+
+.contact .container p {
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.1;
+	font-weight: 400;
+
+}
