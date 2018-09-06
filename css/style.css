@@ -35,8 +35,13 @@ body, html{
 }
 
 .d-flex {
-	padding: 280px;
+/*	padding: 100px;*/
 /*	z-index: -10px*/
+
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left:250px;
+	padding-right: 250px;
 }
 
 .jumbotron {
@@ -69,10 +74,14 @@ footer {
 	position: fixed;
 }
 
-.about .product #section-slide .contact {
-	position: fixed;
-	z-index: 10px;
+.about {
+	justify-content: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	padding-left:250px;
+	padding-right: 250px;
 }
+
 
 .about .section h1 {
 	text-align: justify;
@@ -98,8 +107,8 @@ footer {
 	background-size: cover;
 	color: #ffff;
 	padding-left: 300px;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 250px;
+	padding-bottom: 250px;
 	justify-content: center; 
 }
 
@@ -111,7 +120,7 @@ footer {
 }
 
 .product .section h1 {
-	text-align: justify;
+/*	text-align: left;*/
 	color: #444;
 	font-size: 34px;
 	line-height: 1.5;
@@ -147,5 +156,13 @@ footer {
 	font-size: 14px;
 	line-height: 1.1;
 	font-weight: 400;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+  width: 80px;
+  height: 80px;
 
 }
